@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -85,7 +83,7 @@ class _HomePageState extends State<HomePage> {
           Container(
               padding: const EdgeInsets.all(20),
               child: Text(title,
-                  style: Theme.of(context).textTheme.headline4?.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: Colors.black,
                       fontSize: 20,
                       height: 1.5,
